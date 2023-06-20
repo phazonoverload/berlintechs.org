@@ -51,7 +51,7 @@ details {
     max-width: 500px;
     margin: 4em auto 0;
     text-align: left;
-    padding: 1em 1em 0;
+    padding: 1em;
 }
 details summary {
     cursor: pointer;
