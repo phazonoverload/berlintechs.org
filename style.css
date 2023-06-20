@@ -1,0 +1,79 @@
+:root {
+    --theme: #E9AC60;
+    --font: 'Geologica', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background: var(--theme);
+    padding: 2em;
+    text-align: center;
+    font-family: var(--font);
+}
+img#logo {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 4vw;
+}
+h1 {
+    font-size: 5.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+body > p {
+    font-size: 1.5em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+#links {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+#links a {
+    background: black;
+    color: white;
+    border-radius: 6px;
+    padding: 0.5em 0.75em;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+#links a img {
+    width: 1em;
+    margin-right: 0.5em;
+    margin-left: -0.25em;
+}
+details {
+    border: 1px solid black;
+    max-width: 500px;
+    margin: 4em auto 0;
+    text-align: left;
+    padding: 1em 1em 0;
+}
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+details div {
+    font-size: 14px;
+    margin-top: 1em;
+}
+details a {
+    color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+        margin-bottom: 1rem;
+    }
+    #links {
+        margin-top: 2em;
+    }
+    #links a {
+        font-size: 1em;
+    }
+}
